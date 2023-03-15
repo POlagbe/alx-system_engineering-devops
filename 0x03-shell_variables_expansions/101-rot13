@@ -1,2 +1,2 @@
 #!/bin/bash
-alias rot13="nyvnf ebg13="ge rpub {n..m} | ge -q ' ' rpub {a..m} $(rpub {n..z}) | ge -q ' ' | ge rpub {N..M} | ge -q ' ' rpub {A..M} $(rpub {N..Z}) | ge -q ' '"
+alias rot13="tr 'A-Za-z' 'N-ZA-Mn-za-m'"
